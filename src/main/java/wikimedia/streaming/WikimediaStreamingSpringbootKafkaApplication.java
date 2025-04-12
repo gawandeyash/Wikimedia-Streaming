@@ -5,9 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class WikimediaStreamingSpringbootKafkaApplication {
-
 	public static void main(String[] args) {
-		System.out.println("Application started");
+		System.out.println("Streaming Application started");
 		SpringApplication.run(WikimediaStreamingSpringbootKafkaApplication.class, args);
 	}
 
